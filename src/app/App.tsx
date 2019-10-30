@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Navbar } from "../navbar/Navbar";
 import { Apollo } from "../components/Apollo";
-import { Persons } from "../components/Persons";
+import { Contacts } from "../containers/Contacts";
 import "./App.css";
 
 export const App = () => (
@@ -11,7 +11,7 @@ export const App = () => (
             <Navbar />
             <Switch>
                 <Route path="/" exact component={Apollo} />
-                <Route path="/persons" component={Persons} />
+                <Route path="/contacts" component={Contacts} />
             </Switch>
         </React.Fragment>
     </BrowserRouter>

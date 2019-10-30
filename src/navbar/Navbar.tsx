@@ -5,8 +5,8 @@ import "./Navbar.css";
 export const Navbar = () => (
     <nav className="navbar">
         <ul className="navbar__ul">
-            <NavLink className="navbar__link" to="/">App</NavLink>
-            <NavLink className="navbar__link" to="/persons">Persons</NavLink>
+            <NavLink className="navbar__link" to="/">Apollo</NavLink>
+            <NavLink className="navbar__link" to="/contacts">Contacts</NavLink>
         </ul>
     </nav>
 );
